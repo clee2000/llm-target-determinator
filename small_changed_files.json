@@ -1,0 +1,12 @@
+[
+  ["test_jit", "fe0afc58529bdf148bfda580a60e3d778b5b8f1d", ["aten/src/ATen/native/BlasKernel.cpp", "aten/src/ATen/native/LinearAlgebra.cpp", "aten/src/ATen/native/cpu/BlasKernel.cpp", "test/test_linalg.py", "test/test_sparse_csr.py"]],
+  ["distributed.test_dynamo_distributed", "08f125bcacd6537a0a4163ee665f4be74d65a67d", ["cmake/Dependencies.cmake", "cmake/public/LoadHIP.cmake", "torch/CMakeLists.txt", "torch/utils/cpp_extension.py"]],
+  ["functorch.test_aotdispatch", "c824645219241cafa259a39a651d9eea69df6d01", ["aten/src/ATen/native/UpSample.cpp", "aten/src/ATen/native/UpSample.h", "aten/src/ATen/native/UpSampleBicubic2d.cpp", "aten/src/ATen/native/UpSampleBilinear2d.cpp", "aten/src/ATen/native/UpSampleLinear1d.cpp", "aten/src/ATen/native/UpSampleNearest1d.cpp", "aten/src/ATen/native/UpSampleNearest2d.cpp", "aten/src/ATen/native/UpSampleNearest3d.cpp", "aten/src/ATen/native/UpSampleTrilinear3d.cpp", "aten/src/ATen/native/cuda/UpSample.cuh", "aten/src/ATen/native/metal/ops/MetalUpsamplingNearest.mm", "aten/src/ATen/native/native_functions.yaml", "aten/src/ATen/native/quantized/cpu/UpSampleBilinear2d.cpp", "aten/src/ATen/native/quantized/cpu/UpSampleNearest2d.cpp", "test/test_nn.py", "torch/_decomp/decompositions.py", "torch/nn/functional.py"]],
+  ["test_cuda_trace", "36d64760d97fd7c13681d92738dacff7cca48899", ["torch/_inductor/config.py"]],
+  ["test_quantization", "3eddbc30fd403e59185caa29bc00e20cdfa3b0fc", ["torch/_dynamo/guards.py", "torch/_dynamo/source.py", "torch/_dynamo/utils.py", "torch/csrc/dynamo/eval_frame.c"]],
+  ["inductor.test_torchinductor_dynamic_shapes", "23f2fc93c468919a0411340b4335452590ab137e", ["torch/fx/experimental/symbolic_shapes.py"]],
+  ["test_nn", "1d95df96825b91404de36e30531641c024220bbd", ["aten/src/ATen/native/Normalization.cpp", "aten/src/ATen/native/cpu/batch_norm_kernel.cpp", "test/test_nn.py"]],
+  ["dynamo.test_dynamic_shapes", "f603873c1b5f9877faf618331772214b73703dc2", ["aten/src/ATen/native/native_functions.yaml", "aten/src/ATen/native/nested/NestedTensorBinaryOps.cpp", "aten/src/ATen/native/nested/NestedTensorUnaryOps.cpp", "docs/source/nested.rst", "test/test_nestedtensor.py"]],
+  ["dynamo.test_modules", "e60315b982e07e5014a9e3343679a407ae2afe7f", ["test/dynamo/test_modules.py", "torch/_dynamo/output_graph.py", "torch/_dynamo/utils.py", "torch/_dynamo/variables/nn_module.py"]],
+  ["test_numba_integration", "cdb32dad3da618dbd84c9b7bba5c60f574b1c105", ["torch/_dynamo/debug_utils.py"]]
+]
