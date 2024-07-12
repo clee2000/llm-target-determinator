@@ -1,4 +1,4 @@
-torch==2.0.1
+torch==2.3.0
 transformers
 huggingface_hub
 black==22.6.0
